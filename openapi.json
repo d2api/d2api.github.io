@@ -1,0 +1,138 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "d2 supplemental info"
+  },
+  "servers": [
+    {
+      "url": "https://d2api.github.io"
+    }
+  ],
+  "paths": {
+    "/history/{date}.{format}": {
+      "get": {
+        "description": "get xur location for a specific date",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "description": "a date in the format\nYYYY/MM/DD (month/day leading zeroes)\n\nmust be today's date (UTC) or earlier, and it must be a valid date (June 44th 2020 will return a 404)\n\n2020/12/01 means the time period from daily reset 2020/12/01 to daily reset 2020/12/02\ndestiny's daily reset takes place on the same numerical date, in both PST/PDT, and UTC",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/returnformat"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "a xur location",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/XurLocation"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "description": "a short string describing xur's location, i.e. \"Winding Cove, EDZ\"\n\na blank string if xur is not visiting the specified day",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/current.{format}": {
+      "get": {
+        "description": "get the current xur location",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/returnformat"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "a xur location",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/XurLocation"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "description": "a short string describing xur's location, i.e. \"Winding Cove, EDZ\"\n\na blank string if xur is not visiting the specified day",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "XurLocation": {
+        "description": "an object describing xur's location, or null if xur is not visiting the specified day",
+        "type": "object",
+        "nullable": true,
+        "properties": {
+          "location": {
+            "description": "a simple lowercase string, one of the following:\nedz, titan, nessus, io, tower",
+            "type": "string"
+          },
+          "placeHash": {
+            "description": "a hash corresponding to the DestinyPlaceDefinition for this\nlocation",
+            "type": "integer"
+          },
+          "destinationHash": {
+            "description": "a hash corresponding to the DestinyDestinationDefinition for this\nlocation",
+            "type": "integer"
+          },
+          "bubbleIndex": {
+            "description": "an index pointing to the DestinyBubbleDefinition for this location,\nwithin DestinyDestinationDefinition.bubbles",
+            "type": "integer"
+          },
+          "placeName": {
+            "description": "the english display name for the DestinyPlaceDefinition, i.e.\n\"European Dead Zone\"",
+            "type": "string"
+          },
+          "destinationName": {
+            "description": "the english display name for the DestinyDestinationDefinition, i.e.\n\"European Dead Zone\"",
+            "type": "string"
+          },
+          "bubbleName": {
+            "description": "the english display name for the DestinyBubbleDefinition, i.e.\n\"Winding Cove\"",
+            "type": "string"
+          }
+        },
+        "required": [
+          "location",
+          "placeHash",
+          "destinationHash",
+          "bubbleIndex",
+          "placeName",
+          "destinationName",
+          "bubbleName"
+        ]
+      }
+    },
+    "parameters": {
+      "returnformat": {
+        "name": "format",
+        "in": "path",
+        "description": "\"json\" or \"txt\" depending on the desired return format and MIME type",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

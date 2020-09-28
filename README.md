@@ -1,4 +1,6 @@
-# d2api
+# d2 supplemental information api
+
+just xur locatoion at the moment
 
 spec file:  
 [openapi.json](openapi.json)

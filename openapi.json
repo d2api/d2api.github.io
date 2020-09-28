@@ -10,19 +10,11 @@
     }
   ],
   "paths": {
-    "/history/{date}.{format}": {
+    "/current.{format}": {
       "get": {
-        "description": "get xur location for a specific date",
+        "summary": "xur's current location",
+        "description": "get the current xur location if he is currently somewhere",
         "parameters": [
-          {
-            "name": "date",
-            "in": "path",
-            "description": "a date in the format\nYYYY/MM/DD (month/day leading zeroes)\n\nmust be today's date (UTC) or earlier, and it must be a valid date (June 44th 2020 will return a 404)\n\n2020/12/01 means the time period from daily reset 2020/12/01 to daily reset 2020/12/02\ndestiny's daily reset takes place on the same numerical date, in both PST/PDT, and UTC",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
           {
             "$ref": "#/components/parameters/returnformat"
           }
@@ -47,10 +39,20 @@
         }
       }
     },
-    "/current.{format}": {
+    "/history/{date}.{format}": {
       "get": {
-        "description": "get the current xur location",
+        "summary": "historical xur location",
+        "description": "get xur's location for a specific date",
         "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "description": "a date in the format\nYYYY/MM/DD (month/day leading zeroes)\n\nmust be today's date (UTC) or earlier, and it must be a valid date\n(June 44th 2020 will return a 404)\n\n2020/12/01 means from daily reset 2020/12/01 to daily reset 2020/12/02\n\ndestiny's daily reset takes place on the same numerical date, in both PST/PDT, and UTC",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
           {
             "$ref": "#/components/parameters/returnformat"
           }
@@ -84,7 +86,7 @@
         "nullable": true,
         "properties": {
           "location": {
-            "description": "a simple lowercase string, one of the following:\nedz, titan, nessus, io, tower",
+            "description": "a simple lowercase string, one of the following:\n\nedz, titan, nessus, io, tower",
             "type": "string"
           },
           "placeHash": {

@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "d2 supplemental info"
   },
   "servers": [
@@ -21,7 +21,7 @@
         ],
         "responses": {
           "200": {
-            "description": "a xur location",
+            "description": "json: a XurLocation object, or null if xur is not visiting the specified day\n\ntxt: xur's location or a blank string if xur is not visiting the specified day",
             "content": {
               "application/json": {
                 "schema": {
@@ -59,7 +59,7 @@
         ],
         "responses": {
           "200": {
-            "description": "a xur location",
+            "description": "json: a XurLocation object, or null if xur is not visiting the specified day\n\ntxt: xur's location, or a blank string if xur is not visiting the specified day",
             "content": {
               "application/json": {
                 "schema": {

@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/current.{format}": {
+    "/xur/current.{format}": {
       "get": {
         "summary": "xur's current location",
         "description": "get the current xur location if he is currently somewhere",
@@ -39,7 +39,7 @@
         }
       }
     },
-    "/history/{date}.{format}": {
+    "/xur/history/{date}.{format}": {
       "get": {
         "summary": "historical xur location",
         "description": "get xur's location for a specific date",

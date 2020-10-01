@@ -89,6 +89,10 @@
             "description": "a simple lowercase string, one of the following:\n\nedz, titan, nessus, io, tower",
             "type": "string"
           },
+          "locationName": {
+            "description": "a short string describing xur's location, i.e. \"Winding Cove, EDZ\"",
+            "type": "string"
+          },
           "placeHash": {
             "description": "a hash corresponding to the DestinyPlaceDefinition for this\nlocation",
             "type": "integer"
@@ -116,6 +120,7 @@
         },
         "required": [
           "location",
+          "locationName",
           "placeHash",
           "destinationHash",
           "bubbleIndex",

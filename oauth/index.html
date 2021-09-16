@@ -25,6 +25,12 @@
       set <b>Origin Header</b> to
       <pre>https://paracausal.science</pre>
     </li>
+    <li>
+      hit save!!
+    </li>
+    <li>
+      seriously, <b>hit save</b> on that page
+    </li>
     <li>fill in details below</li>
     <li>only THEN, click the link</li>
   </ol>
@@ -52,7 +58,7 @@
       const state = params.get("state");
       const [client_id, client_secret] = atob(state).split("/");
       document.querySelector("div").innerHTML =
-        "<textarea id=info></textarea><br><br>oauth token:<br><textarea id=token></textarea><br><br><a href='/oauth'>start over</a>";
+        "<textarea id=info></textarea><br><br>oauth token:<br><textarea id=token></textarea><br><br><a href='/oauth/'>start over</a>";
       const tokenFetch = await fetch(
         "https://www.bungie.net/platform/app/oauth/token/",
         {

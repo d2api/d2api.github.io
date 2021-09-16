@@ -1,0 +1,75 @@
+<style>
+  html {
+    font-family: sans-serif;
+  }
+</style>
+<div>
+  "my app isn't webpage-based, and i just want an oauth token to make privileged
+  requests with"<br /><br />then you've come to the right place!
+  <ol>
+    <li>
+      sign into <a href="https://www.bungie.net/" target="_blank">bungie.net</a>
+    </li>
+    <li>
+      visit
+      <a href="https://www.bungie.net/en/Application" target="_blank"
+        >bungie.net/en/Application</a
+      >
+    </li>
+    <li>set <b>OAuth Client Type</b> to <b>Confidential</b></li>
+    <li>
+      set <b>Redirect URL</b> to
+      <pre>https://paracausal.science/oauth/</pre>
+    </li>
+    <li>
+      set <b>Origin Header</b> to
+      <pre>https://paracausal.science</pre>
+    </li>
+    <li>fill in details below</li>
+    <li>only THEN, click the link</li>
+  </ol>
+  <br /><br />
+  client_id: <input id="client_id" /><br />
+  client_secret: <input id="client_secret" /><br /><br />
+  <a id="auth_link" href="#">only with ALL details filled in, click this</a>
+</div>
+<script>
+  document.querySelectorAll("input").forEach((item) => {
+    item.addEventListener("change", () => {
+      const client_id = document.querySelector("#client_id").value;
+      const client_secret = document.querySelector("#client_secret").value;
+      const state = btoa(`${client_id}/${client_secret}`);
+      document.querySelector(
+        "#auth_link"
+      ).href = `https://www.bungie.net/en/OAuth/Authorize?reauth=true&client_id=${client_id}&response_type=code&state=${state}`;
+    });
+  });
+
+  if (document.location.search) {
+    (async () => {
+      const params = new URLSearchParams(document.location.search);
+      const code = params.get("code");
+      const state = params.get("state");
+      const [client_id, client_secret] = atob(state).split("/");
+      document.querySelector("div").innerHTML =
+        "<textarea id=info></textarea><br><br>oauth token:<br><textarea id=token></textarea><br><br><a href='/oauth'>start over</a>";
+      const tokenFetch = await fetch(
+        "https://www.bungie.net/platform/app/oauth/token/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          },
+          body: `grant_type=authorization_code&code=${code}&client_id=${client_id}&client_secret=${client_secret}`,
+        }
+      );
+      const token = await tokenFetch.json();
+      document.querySelector("#info").value = `you provided: ${JSON.stringify(
+        { client_id, client_secret },
+        null,
+        2
+      )}`;
+      document.querySelector("#token").value = JSON.stringify(token, null, 2);
+    })();
+  }
+</script>

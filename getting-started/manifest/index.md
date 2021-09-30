@@ -15,7 +15,7 @@ into friendlier shapes like
 note things like:
 - there's multiple tables (`Filters > Table name`)
   - each of these contains a different type of data: vendors, items, perks, activities, damage and energy types, etc  
-  - however 90% of the ice berg is InventoryItems.  
+  - however 90% of the iceberg is InventoryItems.  
   guns and armor are items, engrams are items, quests are items, emblems are items, emotes are items, mods are items.  
   rampage is an item. rampage _spec_ is an item. meat made of cabal is an item.
 - within each table, the structure and properties of each entry are very similar.  

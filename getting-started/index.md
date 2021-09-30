@@ -15,7 +15,7 @@ now that's what we like to hear. what
 maybe [play around with the api](#i-want-to-play-with-the-bungie-api)? maybe take a walk or play the game some.
 
 ### "i want to play with the definitions/manifest" 
-[here](https://data.destinysets.com/) you'll find a great interface that lets you explore through the definitions.  
+
 these are the words, titles, names, images, etc. which translate raw data (the user has 10x 1022552290)  
 into friendlier shapes (the user has 10 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) legendary shards)
 when you're done exploring this data, you can learn how to [handle it yourself](#handling-the-definitionsmanifest)

@@ -1,4 +1,4 @@
-#### the manifest/definitions
+## the manifest/definitions
 
 some people say "the manifest"  
 if you're josh it's "the definitions"  

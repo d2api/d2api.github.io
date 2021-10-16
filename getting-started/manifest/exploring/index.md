@@ -1,6 +1,6 @@
-## exploring definitions
+# exploring definitions
 
-### what are they?
+## what are they?
 some people say "the manifest"  
 if you're josh it's "the definitions"  
 technically "the manifest" is what you check, to learn where to download "the definitions"
@@ -13,14 +13,14 @@ into friendlier shapes like
 
 > "the user has 10 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
 
-### what are't they?
+## what are't they?
 - they are static data, updated every few weeks or months. they aren't anyone's current **inventory**
 - they don't have **enemy units** (dreg/vandal/etc)
 - they don't have a lot of **sandbox** and **gameplay** numbers/stats
  - no **range** in meters. no **damage numbers**. impact & range stats are abstractions
  - they don't have accurate **magazine stats**. these are adjusted by gameplay scripts, and though many seem right/almost, others just aren't
 
-### how can i check them out?
+## how can i check them out?
 
 [data.destinysets.com](https://data.destinysets.com/) is a lovely interface that lets you explore the definitions data.  
 note things like:

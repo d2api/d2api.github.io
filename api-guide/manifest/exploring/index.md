@@ -40,4 +40,5 @@ things to note as you look around:
 
 this definitions data is retrieved from bungie.net as sqlite database(s), or large file(s) full of JSON data. so:  
 they're not comfortable to read raw, nor easy to open or explore as text.  
-if you want to use these definitions for some purpose, expect to write code or use other utilities to [work with the definitions data](../using)
+if you want to use these definitions for some purpose,  
+you should expect to write code or use other utilities to [work with definitions data](../using)

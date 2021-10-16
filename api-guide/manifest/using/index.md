@@ -10,10 +10,10 @@ into friendlier shapes like
 > "the user has 69420 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
 
 they are **exhaustive**:
-- if you want "a list of **all weapons**" or **all perks**, or **all mods**, all versions of **all armor**, what you need is the definitions  
-all tables are just JSON dictionaries. enumerate all their values and you have a list of everything
-- **triumphs**, **seasonal challenges**, **collections**, etc. are node trees, structured like they are in-game
- - you can follow them through parent/child lists, and assemble the tree [more](../trees)
+- if you want "a list of **all weapons**" or **all perks**, or **all mods**, all versions of **all armor**, then what you need is the definitions
+- all the tables are just JSON dictionaries. enumerate all their values, and you have a list of everything
+- **triumphs**, **seasonal challenges**, **collections**, etc. are node trees, laid out like they are in-game
+ - you can follow them through parent/child lists, and assemble the [tree structure](../trees)
 
 ## what aren't they?
 - they are static data, updated every few weeks or months. they aren't anyone's current **inventory**

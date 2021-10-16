@@ -7,7 +7,7 @@ the definitions contain the words, titles, names, images, etc. which help transl
 
 into friendlier shapes like
 
-> "the user has 10 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
+> "the user has 23962 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
 
 they are **exhaustive**:
 - if you want "a list of **all weapons**" or **all perks**, or **all mods**, all versions of **all armor**, what you need is the definitions  

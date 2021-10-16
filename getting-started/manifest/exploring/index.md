@@ -11,7 +11,7 @@ the definitions contain the words, titles, names, images, etc. which help transl
 
 into friendlier shapes like
 
-> "the user has 10 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
+> "the user has 23962 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
 
 ## what are't they?
 - they are static data, updated every few weeks or months. they aren't anyone's current **inventory**

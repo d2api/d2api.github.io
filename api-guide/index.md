@@ -14,7 +14,7 @@ now that's what we like to hear. what will your app do?
 - process or access [activity history](activity-history) like pvp matches, raids, kill stats, etc
 - check what [vendors](vendors) are selling
 - a massive app that does [all of these](everything)
-- [i don't know](idklol)
+- [i don't know](idk)
 
 ## just give me an index of subjects
 

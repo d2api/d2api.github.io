@@ -11,7 +11,7 @@ into friendlier shapes like
 
 they are **exhaustive**:
 - if you want "a list of **all weapons**" or **all perks**, or **all mods**, all versions of **all armor**, then what you need is the definitions
-- all the tables are just JSON dictionaries. enumerate all their values, and you have a list of everything
+- all the tables either JSON dictionaries or sql tables. just enumerate all their values, and you have a list of everything
 - **triumphs**, **seasonal challenges**, **collections**, etc. are node trees, laid out like they are in-game
  - you can follow them through parent/child lists, and assemble the [tree structure](../trees)
 

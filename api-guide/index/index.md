@@ -1,0 +1,7 @@
+- API basics:
+ - REST APIs
+ - Bungie.net API keys
+ - OAuth / user authentication
+- [the manifest/definitions](manifest) - generic data 
+- [inventory access](inventory) - user-owned items
+- [xur](xur)

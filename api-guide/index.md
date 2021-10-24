@@ -1,29 +1,18 @@
-# so you're here. what do you want to do?
+# a guide to the destiny 2 API
 
-## "i just want to play with the bungie API"
+so you're here, what do you want to do?
 
-excellent. you can check out one of the two major components of the API:
+## "i just want to play with the API"
+
+excellent. the two major components of the API are:
 - [the definitions](manifest/exploring)
 - or [the live data endpoints](endpoints/exploring)
 
-## "i know how to program, and want to make something with the bungie API"
+## "i know how to program, and want to make something with the API"
 
-now that's what we like to hear. what will your app do?
-- view and manage [inventory items](inventory)
-- work with [generic item/collections data](manifest/using) about armor/weapons/mods/emblems/etc
-- process or access [activity history](activity-history) like pvp matches, raids, kill stats, etc
-- check what [vendors](vendors) are selling
-- a massive app that does [all of these](everything)
-- [i don't know](idk)
+now that's what we like to hear.  
+read up on the [technical basics](technical-basics) and then pick a [focal purpose](by-goal) to learn more about.
 
 ## just give me an index of subjects
 
-okay.
-
-- API basics:
- - REST APIs
- - Bungie.net API keys
- - OAuth / user authentication
-- [the manifest/definitions](manifest)
-- [inventory access](inventory)
-- [xur](xur)
+okay. [a table of contents just for you](index)

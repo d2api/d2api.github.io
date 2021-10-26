@@ -1,7 +1,8 @@
-what will your app do?
+# destiny 2 API tasks
+
+what do you need your app to do?
+
 - view and manage [inventory items](inventory)
-- work with [generic item/collections data](manifest/using) about armor/weapons/mods/emblems/etc
-- process or access [activity history](activity-history) like pvp matches, raids, kill stats, etc
-- check what [vendors](vendors) are selling
-- a massive app that does [all of these](everything)
-- [i don't know](idk)
+- work with [generic default data](manifest/using) about armor/weapons/mods/emblems/triumphs/collections/etc
+- process or access [activity history](activity-history), like pvp matches, raids, kill stats, etc
+- check what things [vendors](vendors) are selling

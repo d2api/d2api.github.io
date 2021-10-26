@@ -11,7 +11,7 @@ excellent. the two major components of the API are:
 ## "i know how to program, and want to make something with the API"
 
 now that's what we like to hear.  
-read up on the [technical basics](technical-basics) and then pick a [focal purpose](by-goal) to learn more about.
+read up on the [technical basics](technical-basics) and then pick an [API operation](by-goal) to learn more about.
 
 ## just give me an index of subjects
 

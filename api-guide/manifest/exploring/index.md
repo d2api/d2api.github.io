@@ -18,8 +18,8 @@ into friendlier shapes like
 - they are static data, updated every few weeks or months. they aren't anyone's current **inventory**
 - they don't have **enemy units** (dreg/acolyte/etc)
 - they don't have **sandbox** and **gameplay** numbers/stats
- - no **range** in meters. no **damage numbers**. the impact & range stats are abstractions
- - they don't have accurate **magazine stats**. these are adjusted by gameplay scripts, and though many seem right/almost, others just aren't
+  - no **range** in meters. no **damage numbers**. the impact & range stats are abstractions
+  - they don't have accurate **magazine stats**. these are adjusted by gameplay scripts, and though many seem right/almost, others just aren't
 
 ## how can i check the definitions out?
 

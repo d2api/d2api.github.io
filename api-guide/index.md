@@ -15,4 +15,4 @@ read up on the [technical basics](technical-basics) and then pick an [API operat
 
 ## just give me an index of subjects
 
-okay. [a table of contents just for you](index)
+okay. [a table of contents just for you](index/)

@@ -1,6 +1,6 @@
 # a guide to the destiny 2 API
 
-so you're here, what do you want to do?
+what do you want to do?
 
 ## "i just want to play with the API"
 

@@ -8,5 +8,5 @@
 - [xur](xur)
 - [inventory items](inventory)
 - [generic default data](manifest/using)
-- [activity history](activity-history) like pvp matches, raids, kill stats, etc
+- [activity history](activities) like pvp matches, raids, kill stats, etc
 - [vendor](vendors) sales

@@ -1,0 +1,24 @@
+## postgame carnage report
+
+# about
+a postgame carnage report is the data structure that describes what happened in an instance.  
+it has kill counts, scores, teams, fireteams, medals, etc.
+
+an "instance" for the purposes of a PGCR might be a series of patrol areas on the same planet, excluding other fireteams who wander by. but in other types of activity, it's the same shared instance for everyone on your team, on an opposing team, people who cycle in and out of the party, etc.  
+an instance generally ends when everyone leaves. as long as someone is still in the instance, it continues.  
+you can ship-of-theseus it, until none of the original players is there, but as long as there was always a player in it, it is still the same instance.
+
+if your whole team leaves a raid halfway through, then launches it again, that's a new instance. it may start from a checkpoint, but it's a separate copy of the game world. all the ammo drops and debris are gone, your kill counters are fresh, etc.
+
+API-wise, there's no fixed/guaranteed way to link those two PGCRs. you can assume they're related, from the fact that it's the same 6 people, and the first one wasn't completed, but that's it. raid PGCRs used to show whether they were fresh or started at a checkpoint, but they [no longer do](https://github.com/Bungie-net/api/issues/1320).
+
+# API
+
+all it takes to request a PGCR is its instanceId. you don't need to know any of the players involved. you don't need oauth for a participant, they can't be kept private.
+
+etc etc.
+
+https://www.bungie.net/en/PGCR/1
+
+
+

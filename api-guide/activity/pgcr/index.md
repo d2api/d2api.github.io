@@ -10,15 +10,36 @@ you can ship-of-theseus it, until none of the original players is there, but as 
 
 if your whole team leaves a raid halfway through, then launches it again, that's a new instance. it may start from a checkpoint, but it's a separate copy of the game world. all the ammo drops and debris are gone, your kill counters are fresh, etc.
 
-API-wise, there's no fixed/guaranteed way to link those two PGCRs. you can assume they're related, from the fact that it's the same 6 people, and the first one wasn't completed, but that's it. raid PGCRs used to show whether they were fresh or started at a checkpoint, but they [no longer do](https://github.com/Bungie-net/api/issues/1320).
+API-wise, there's no fixed/guaranteed way to link those two PGCRs.  
+if you want, you can assume they're related, from the fact that it's the same 6 people, and the first one wasn't completed, but that's it.  
+raid PGCRs used to show whether they were fresh or started at a checkpoint, but they [no longer do](https://github.com/Bungie-net/api/issues/1320)
 
-# API
+they increment serially. there's a 1. and a 2. etc.  
+say hi to StyxBoatman https://www.bungie.net/en/PGCR/1  
+he has a twitter account last i checked.
 
-all it takes to request a PGCR is its instanceId. you don't need to know any of the players involved. you don't need oauth for a participant, they can't be kept private.
+# fetching PGCRs with the API
 
-etc etc.
+endpoint spec: https://bungie-net.github.io/#Destiny2.GetPostGameCarnageReport
 
-https://www.bungie.net/en/PGCR/1
+all it takes to request a PGCR is its instanceId. you don't need to know any of the players involved. you don't need oauth for a participant. they can't be kept private.  
+basically, just hit this URL with an API key  
+`https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport/123456789/`  
+but with the instanceId you want instead of `123456789`
 
+if a PGCR doesn't exist, *usually* because it hasn't been created yet, you'll probably get this error:
+```json
+{
+  "ErrorCode": 1653,
+  "ThrottleSeconds": 0,
+  "ErrorStatus": "DestinyPGCRNotFound",
+  "Message": "The activity you were looking for was not found.",
+  "MessageData": {}
+}
+```
 
-
+# PGCR data
+- `period` property is a timestamp of when the activity *began*
+- `activityDetails` shows which activity was played, among other things
+- `startingPhaseIndex` rest in peace
+- `teams` **exists even when there aren't teams**, but it will be empty

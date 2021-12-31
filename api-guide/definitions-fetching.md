@@ -1,4 +1,4 @@
-### fetching definitions
+## fetching definitions
 
 step 1 of fetching definitions data is learning where to download the current defs.  
 the defs URLs will change season-to-season as new items are introduced, and week-to-week as game updates happen or entries are declassified. so we need a consistent way to find out what they are:

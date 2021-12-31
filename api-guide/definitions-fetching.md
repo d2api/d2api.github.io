@@ -1,4 +1,4 @@
-## fetching definitions
+# fetching definitions
 
 step 1 of fetching definitions data is learning where to download the current defs.  
 the defs URLs will change season-to-season as new items are introduced, and week-to-week as game updates happen or entries are declassified. so we need a consistent way to find out what they are:
@@ -27,3 +27,15 @@ the returned format is a [JSON Object (dictionary)](https://bungie-net.github.io
 ```
 
 choose your path, add the prefix `https://www.bungie.net`, and fetch those defs
+
+# DO NOT SEND AN API KEY
+
+the above URLs are not API endpoints, they're just URLS.  
+downloading will fail if you send an API key.
+
+### decoding definitions
+
+JSON is JSON, just load and parse it.
+
+a `.content`, as downloaded, is a zip file.  
+it contains another `.content` file that's actually an sqlite database.

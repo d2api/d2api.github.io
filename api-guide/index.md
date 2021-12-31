@@ -5,8 +5,8 @@ what do you want to do?
 ## "i just want to play with the API"
 
 excellent. the two major components of the API are:
-- [the definitions](manifest/exploring)
-- or [the live data endpoints](endpoints/exploring)
+- [the definitions](definitions-exploring)
+- or [the live data endpoints](endpoints-exploring)
 
 ## "i know how to program, and want to make something with the API"
 
@@ -15,4 +15,4 @@ read up on the [technical basics](technical-basics) and then pick an [API operat
 
 ## just give me an index of subjects
 
-okay. [a table of contents just for you](index/)
+okay. [a table of contents just for you](index-list)

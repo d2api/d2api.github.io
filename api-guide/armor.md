@@ -1,4 +1,4 @@
 ## armor
 
 you may want:
-- [calculating armor stats](stats)
+- [calculating armor stats](armor-stats)

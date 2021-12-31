@@ -14,7 +14,7 @@ things to note as you look around:
 - within each table, the structure and properties of each entry are very similar
   - you may see one InventoryItem entry has a `flavorText` or `stats` property. this is a sign that many other InventoryItem entries will also have these properties
   - there aren't freeform or one-off properties. definitions entries aren't useful data if an application doesn't know where to look and what to expect
-  - the [API specification](../../api-spec) outlines what data you can expect inside definitions
+  - the [API specification](api-spec) outlines what data you can expect inside definitions
 - if you're comfortable writing JavaScript, you can play with this data programatically: there are examples shown if you open the console
 
 ## what's next?

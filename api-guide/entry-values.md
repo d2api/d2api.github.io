@@ -54,4 +54,4 @@ but in practice, in a PGCR, you'll just find a `basic` property, which stores a 
 
 ## completionReason
 `completed` and `completionReason` work in tandem to determind the "outcome" of the activity for this character.
-see: [completionReason](../completion-reasons)
+see: [completionReason](completion-reasons)

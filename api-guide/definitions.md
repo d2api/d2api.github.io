@@ -27,4 +27,4 @@ into friendlier shapes like
 - [check the defs out](definitions-exploring)
 - if you're programming
   - learn how to [download the definitions data](definitions-fetching)
-  - how to [work with definitions data](definitions-technical)
+  - how to [work with definitions data](definitions-using)

@@ -23,4 +23,4 @@ this definitions data is retrieved from Bungie.net as sqlite database(s), or lar
 they're not comfortable to read raw, nor easy to open or explore as text.  
 if you want to use these definitions for some purpose, you should
 - learn how to [download the definitions data](definitions-fetching)
-- and expect to write code or use other utilities to [work with definitions data](definitions-technical)
+- and expect to write code or use other utilities to [work with definitions data](definitions-using)

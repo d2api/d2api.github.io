@@ -7,7 +7,7 @@
 - [inventory access](inventory) - user-owned items
 - [xur](xur)
 - [inventory items](inventory)
-- [generic default data](definitions-technical)
+- [generic default data](definitions-using)
 - [activity history](activities) like pvp matches, raids, kill stats, etc
 - [pgcr](pgcr) postgame carnage report. info about specific matches, raids, kill stats, etc
 - [vendor](vendors) sales

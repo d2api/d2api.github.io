@@ -1,13 +1,6 @@
 # using the definitions programatically
 
-<details><summary>
-
 ## what are the definitions?
-
-</summary>
-
-some people call it "the manifest". if you're josh, it's "the definitions".  
-technically "the manifest" is what you check, to learn where to download "the definitions"
   
 the definitions contain the words, titles, names, images, etc. which help translate raw data like
 
@@ -24,7 +17,7 @@ into friendlier shapes like
 - they don't have **sandbox** and **gameplay** numbers/stats
   - no **range** in meters. no **damage numbers**. the impact & range stats are abstractions
   - they don't have accurate **magazine stats**. these are adjusted by gameplay scripts, and though many seem right/almost, others just aren't
-</details>
+  - no **XP** values
 
 ## procedures
 - [fetch the defs](fetching)

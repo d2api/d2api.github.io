@@ -2,7 +2,7 @@
 
 some terminology:
 
-**instance**: an ongoing slice of the game world maintained for players to do stuff in. an instance generally ends when everyone leaves.
+**instance**: an ongoing slice of the game world, maintained for players to do stuff in. an instance generally ends when everyone leaves.
 
 **instanceId**: this is an individual number that points to an instance[*](instance-id-footnote). if you run a strike, or a mission, or do a patrol, there's an instanceId that will point to a record of doing that activity.
 

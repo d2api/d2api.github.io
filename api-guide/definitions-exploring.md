@@ -1,26 +1,6 @@
 # exploring definitions
 
-## what are the definitions?
-
-some people call it "the manifest". if you're josh, it's "the definitions".  
-technically "the manifest" is what you check, to learn where to download "the definitions"
-  
-the definitions contain the words, titles, names, images, etc. which help translate raw data like
-
-> `"itemHash":1022552290,"quantity":69420`
-
-into friendlier shapes like
-
-> "the user has 69420 ![](https://www.bungie.net/common/destiny2_content/icons/b3e829460a53354a92d8f893c44db3b7.png) Legendary Shards"
-
-## what aren't they?
-
-- they are static data, updated every few weeks or months. they aren't anyone's current **inventory**
-- they don't have **enemy units** (dreg/acolyte/etc)
-- they don't have **sandbox** and **gameplay** numbers/stats
-  - no **range** in meters. no **damage numbers**. the impact & range stats are abstractions
-  - they don't have accurate **magazine stats**. these are adjusted by gameplay scripts, and though many seem right/almost, others just aren't
-  - no **XP** values
+required reading: [definitions overview](definitions)
 
 ## how can i check the definitions out?
 
@@ -41,7 +21,6 @@ things to note as you look around:
 
 this definitions data is retrieved from Bungie.net as sqlite database(s), or large file(s) full of JSON data. so:  
 they're not comfortable to read raw, nor easy to open or explore as text.  
-if you want to use these definitions for some purpose,  
-you should
+if you want to use these definitions for some purpose, you should
 - learn how to [download the definitions data](definitions-fetching)
-- expect to write code or use other utilities to [work with definitions data](definitions-technical)
+- and expect to write code or use other utilities to [work with definitions data](definitions-technical)

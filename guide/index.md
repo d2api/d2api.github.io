@@ -13,6 +13,6 @@ excellent. the two major components of the API are:
 now that's what we like to hear.  
 read up on the [technical basics](technical-basics) and then pick an [API operation](by-goal) to learn more about.
 
-## just give me an index of subjects
+## "just give me an index of subjects"
 
 okay. [a table of contents just for you](index-list)

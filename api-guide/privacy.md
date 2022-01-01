@@ -21,12 +21,12 @@ what sorts of things *may* be private?
 
 what sorts of things are always public?
 - account information
-  - bungie name
+  - Bungie name
   - information about what other accounts are linked/cross-saved
 - a player/character's participation entry in a [pgcr](pgcr)
 - an account's characters
 - each character's equipped items
 
-things that *may* be private are configured by each bungie.net user at  
+things that *may* be private are configured by each Bungie.net user at  
 https://www.bungie.net/7/en/User/Account/Privacy
 ![](/assets/images/privacy.png)

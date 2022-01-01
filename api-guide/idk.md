@@ -1,4 +1,4 @@
-### "i want to make something with the bungie API, but i'm not sure what"
+### "i want to make something with the Bungie API, but i'm not sure what"
 
 that's a normal feeling. wanting to use the cool toy but no goal yet.  
 maybe [play around with the api](.)?  

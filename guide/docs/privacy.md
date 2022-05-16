@@ -29,4 +29,4 @@ what sorts of things are always public?
 
 things that *may* be private are configured by each Bungie.net user at  
 https://www.bungie.net/7/en/User/Account/Privacy
-![](/assets/images/privacy.png)
+![](/img/privacy.png)

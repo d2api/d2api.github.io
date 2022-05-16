@@ -24,7 +24,7 @@ into friendlier shapes like
 
 ## what's next?
 
-- [check the defs out](./exploring)
+- [check the defs out](definitions/exploring)
 - if you're programming
-  - learn how to [download the definitions data](./fetching)
-  - how to [work with definitions data](./using)
+  - learn how to [download the definitions data](definitions/fetching)
+  - how to [work with definitions data](definitions/using)

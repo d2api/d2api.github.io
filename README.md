@@ -1,15 +1,41 @@
-# d2api stuff
+# Website
 
-## Destiny 2 API information
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### so you want to make something with the Destiny 2 API?
-[getting started guide](guide/)  
+### Installation
 
-## tools
-get an oath token (for non-web apps): [oauth](oauth/)  
+```
+$ yarn
+```
 
-## xur location api stuff
-spec file: [openapi.json](openapi.json)  
-spec info:  [spec](spec)  
-types:  [github](https://github.com/d2api/d2api-types/blob/master/index.d.ts)  
-types package:  [npm](https://www.npmjs.com/package/@d2api/d2api-types)  
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

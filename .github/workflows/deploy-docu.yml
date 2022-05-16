@@ -3,13 +3,13 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - docs-src
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy Docusaurus to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,9 +19,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: cd guide;npm ci
+        run: npm ci
       - name: Build website
-        run: cd guide;npm run build
+        run: npm run build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -31,3 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
+          destination_dir: guide

@@ -6,7 +6,7 @@ what do you want to do?
 
 excellent. the two major components of the API are:
 - [the definitions](definitions-exploring)
-- or [the live data endpoints](endpoints-exploring)
+- or the live data endpoints
 
 ## "i know how to program, and want to make something with the API"
 

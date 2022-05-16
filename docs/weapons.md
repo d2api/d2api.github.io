@@ -1,4 +1,4 @@
 ## weapons
 
 you may want:
-- [calculating weapon stats](stats)
+- [calculating weapon stats](weapon-stats)

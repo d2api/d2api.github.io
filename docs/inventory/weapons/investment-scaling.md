@@ -1,4 +1,4 @@
-## weapon stats
+# investment scaling
 
 the most obvious example of how investment stats work is for weapon magazines
 

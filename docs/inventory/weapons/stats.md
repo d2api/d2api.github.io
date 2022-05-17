@@ -1,4 +1,4 @@
-## weapon stats
+# weapon stats
 
 ### where do weapon stats come from?
 weapon stats are a combination of the weapon's base stats, plus any bonuses or penalties added by its perks, mods, and masterworks
@@ -12,7 +12,7 @@ weapon stats are a combination of the weapon's base stats, plus any bonuses or p
   - an item's sockets is represented as an array of `DestinyItemSocketState`
   - each `DestinyItemSocketState` has a `plugHash` property that shows what item is plugged into that socket, and a `isEnabled` property to say whether that item's contribution should be included
   - each plugged item (a `DestinyInventoryItemDefinition`) may contribute stats to the weapon. check to see if that item has an `investmentStats` property
-  - once you've combined the stat contributions of all items plugged into the sockets, that total is transformed using [investment scaling](investment-scaling)
+  - once you've combined the stat contributions of all items plugged into the sockets, that total is transformed using [investment scaling](/inventory/weapons/investment-scaling)
 
 ### how do i get a fake/default/definitions-only weapon's stats?
 - same as above, except using only the definition, and the weapon's default sockets

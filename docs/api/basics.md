@@ -28,7 +28,7 @@ so there's no need to be logged in as X unless it's for information specific to 
 ### scope
 
 for logged-in operations, there are also permissions a user grants, when they log into an application.  
-each [application](app-setup) chooses a set of permissions it asks for, and when the user logs in, they can see, and agree to those permissions.
+each [application](/api/app-setup) chooses a set of permissions it asks for, and when the user logs in, they can see, and agree to those permissions.
 
 for destiny 2, there are separate read and write permissions. an app can request permission solely to view user's deeper destiny 2 information, or request permission to make inventory changes as well.
 

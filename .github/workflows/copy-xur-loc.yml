@@ -10,6 +10,7 @@ jobs:
     name: Copy my folder
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

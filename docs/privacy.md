@@ -23,7 +23,7 @@ what sorts of things are always public?
 - account information
   - Bungie name
   - information about what other accounts are linked/cross-saved
-- a player/character's participation entry in a [pgcr](pgcr)
+- a player/character's participation entry in a [pgcr](activities/pgcrs)
 - an account's characters
 - each character's equipped items
 

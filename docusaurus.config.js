@@ -53,11 +53,11 @@ const config = {
             label: '/',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/d2api/d2api.github.io/tree/docs-src',
-            label: 'Edit @ GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/d2api/d2api.github.io/tree/docs-src',
+          //   label: 'Edit @ GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {

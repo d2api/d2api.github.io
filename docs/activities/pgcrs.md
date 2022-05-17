@@ -24,12 +24,16 @@ he has a twitter account last i checked.
 
 ### fetching PGCRs with the API
 
-endpoint spec: [https://bungie-net.github.io/#Destiny2.GetPostGameCarnageReport]
+endpoint spec: https://bungie-net.github.io/#Destiny2.GetPostGameCarnageReport
 
-all it takes to request a PGCR is its instanceId. you don't need to know any of the players involved. you don't need oauth for a participant. they can't be kept private.  
+all it takes to request a PGCR is its instanceId:
+- you don't need to know any of the players involved.
+- you don't need oauth for a participant.
+- they can't be kept private.  
+
 basically, just hit this URL with an API key  
 `https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport/123456789/`  
-but with the instanceId you want, instead of that number
+to get the PGCR for instance #123456789
 
 if a PGCR doesn't exist, *usually* because it hasn't been created yet, you'll probably get this error:
 ```json

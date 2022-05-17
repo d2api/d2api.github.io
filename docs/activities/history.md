@@ -1,9 +1,5 @@
 ---
 title: collecting
-tags:
-  - Demo
-  - Getting started
-sidebar_label: a
 ---
 
 ## collecting a player's activity history

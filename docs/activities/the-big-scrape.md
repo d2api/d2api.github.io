@@ -1,7 +1,12 @@
+---
+title: global activity history
+sidebar_position: 2
+---
+
 #### collecting everyone's activity history
 
 this is a really big proposal, are you sure?
-we're talking maybe 35-40 TB of raw data (from all time)
+we're talking maybe 35-40 TB of raw data, if you want data from all time,  
 or consuming many hundreds of PGCRs per second, ongoing, forever, if you just want to keep up with current activity
 
 the tl;dr here is, PGCRs are incrementing one at a time. you can request  

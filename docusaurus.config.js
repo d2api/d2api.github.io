@@ -17,6 +17,18 @@ const config = {
   // organizationName: 'facebook', // Usually your GitHub org/user name.
   // projectName: 'docusaurus', // Usually your repo name.
 
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-docs',
+  //     {
+  //       async sidebarItemsGenerator({defaultSidebarItemsGenerator, ...args}) {
+  //         const sidebarItems = await defaultSidebarItemsGenerator(args);
+  //         return reverseSidebarItems(sidebarItems);
+  //       },
+  //     },
+  //   ],
+  // ],
+
   presets: [
     [
       'classic',

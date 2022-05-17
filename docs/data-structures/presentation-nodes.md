@@ -24,7 +24,7 @@ an example:
 ```
 
 ## root nodes
-many of the top level nodes are available through the `destiny2CoreSettings` key in [the settings endpoint](settings)'s data
+many of the top level nodes are available through the `destiny2CoreSettings` key in [the settings endpoint](/api/endpoints/settings)'s data
 
 if you want to enumerate collections data, instead of hardcoding `3790247699` in your app, just load the current d2 settings and check the value of `collectionRootNode`
 

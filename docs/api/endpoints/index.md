@@ -1,4 +1,6 @@
-# exploring the API endpoints
+# API endpoints
+
+## overview
 
 ![](/img/flowchart.png)
 

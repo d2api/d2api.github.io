@@ -1,0 +1,13 @@
+# subject index
+- API basics:
+  - REST APIs
+  - [setting up at Bungie.net](/api/app-setup) - API keys/client id/secrets/etc
+  - OAuth / user authentication
+- [the manifest/definitions](/definitions) - generic data 
+- [inventory access](inventory) - user-owned items
+- [xur](/vendors/xur)
+- [inventory items](inventory)
+- [generic default data](/definitions/using)
+- [activity history](/activities) like pvp matches, raids, kill stats, etc
+- [pgcr](/activities/pgcrs) postgame carnage report. info about specific matches, raids, kill stats, etc
+- [vendor](/vendors) sales

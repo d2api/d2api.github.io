@@ -7,7 +7,7 @@ it's a string that looks like this:
 `Jq+R9ULSA1VWPGB/TBTDcuUcFJiI2Du/Cj8KUkQqkyXFGsAwwT7MakG/3ntvZNHrPHz=`  
 (the refresh token looks like this too)
 
-## the access token endpoint
+## issuing a new access token
 
 ### requesting the token
 

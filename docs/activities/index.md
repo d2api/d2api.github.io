@@ -10,6 +10,6 @@ some terminology:
 
 
 more details about:
-- [postgame carnage reports](activities/pgcr)
+- [postgame carnage reports](activities/pgcrs)
 - collecting [a player's activity history](activities/history)
 - collecting [everyone's activity history](activities/the-big-scrape)

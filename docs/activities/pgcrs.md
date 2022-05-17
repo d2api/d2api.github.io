@@ -19,7 +19,7 @@ if you want, you can assume they're related, from the fact that it's the same 6 
 raid PGCRs used to show whether they were fresh or started at a checkpoint, but they [no longer do](https://github.com/Bungie-net/api/issues/1320)
 
 they increment serially. there's a PGCR 1, a PGCR 2, etc.  
-say hi to StyxBoatman [https://www.bungie.net/en/PGCR/1]  
+say hi to StyxBoatman on https://www.bungie.net/en/PGCR/1 :)  
 he has a twitter account last i checked.
 
 ### fetching PGCRs with the API

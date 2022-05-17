@@ -38,5 +38,5 @@ the Bungie API uses OAuth to authenticate users, with an authorization code flow
 
 the `access token` is used to make authenticated requests, proving with each request that the application is acting on the user's behalf.
 
-more about OAuth [here](/api/oauth)
+more about OAuth [here](/oauth)
 

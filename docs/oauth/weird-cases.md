@@ -5,9 +5,9 @@
 ### "why do i need to set this up, i just want to use my own account to query the API"
 
 that's cool. fair.
-- i set up a page here if you just want to generate a token  
+- i set up a page here if you just want to generate an `access token`  
 https://paracausal.science/oauth/
-- you could put a fake or localhost URL in at bungie.net, then when it forwards you to a failed URL, just grab the auth code out of the URL and perform the exchange yourself.
+- you could put a fake or localhost URL in at bungie.net, then when it forwards you to a failed URL, just grab the `authorization code` out of the URL and perform the exchange yourself.
 
 ### "but i'm just developing! i don't have an SSL. i don't need an SSL."
 

@@ -20,7 +20,7 @@ the Bungie API uses an authorization code flow. this means
 
 #### "this doesn't work for me"
 
-if something about this flow doesn't seem compatible with your use case, see [here](/api/weird-cases).
+if something about this flow doesn't seem compatible with your use case, see [here](/oauth/weird-cases).
 
 ## what now
 

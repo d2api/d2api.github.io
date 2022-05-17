@@ -36,7 +36,7 @@ a Public client requires the user to reauthenticate every hour. a Confidential c
 
 #### Redirect URL
 
-when a user grants permission to your app, they're sent to this URL with an authorization code. this is where you'd have a webpage or app capable of completing the [OAuth flow](/api/oauth).
+when a user grants permission to your app, they're sent to this URL with an authorization code. this is where you'd have a webpage or app capable of completing the [OAuth flow](/oauth).
 
 #### Scope
 

@@ -1,12 +1,13 @@
 # privacy
 
 for destiny 2 operations, there are 2 different levels of privacy:
-- things you can do anonymously (without a user account, but with an API key)
-- things you can do as the user, involving the user's account (like move an item around)
 
-there's no middle option, "things you can do as a user, involving other people's accounts"  
+- things you can do anonymously (meaning "without a user account", but you still need an API key)
+- things you can do authenticated as a user, involving that user's account ([some examples here](/api/privacy))
+
+there's no middle option, "things you can do as a user, involving other people's accounts".  
 things are either public, or locked to only the user involved.  
-so there's no need to be logged in as Person X unless it's for information/operations specific to Person X's account. [more here](privacy)
+so there's no need to be logged in as X unless it's for information specific to X's account.
 
 what sorts of things are private?
 - inventory changes

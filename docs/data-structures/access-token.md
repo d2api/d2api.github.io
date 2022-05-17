@@ -1,14 +1,11 @@
 # access token
 
+*see also [(/oauth/access-token)](/oauth/access-token)*
+
 an `access token` is used to do authenticated requests.
 it's a string that looks like this:  
 `Jq+R9ULSA1VWPGB/TBTDcuUcFJiI2Du/Cj8KUkQqkyXFGsAwwT7MakG/3ntvZNHrPHz=`  
 (the refresh token looks like this too)
-
-the `access token` is sent along with the request as an HTTP header. the header's name is  
-`Authorization`  
-and its value looks like  
-`Bearer Jq+R9ULSA1VWPGB/TBTDcuUcFJiI2Du/Cj8KUkQqkyXFGsAwwT7MakG/3ntvZNHrPHz=`
 
 when a new `access token` is fetched from the bungie API, the JSON response looks like this:
 ```ts
@@ -22,12 +19,10 @@ when a new `access token` is fetched from the bungie API, the JSON response loo
 }
 ```
 
-your application should **save** the `access_token` and `refresh_token`
+the `access_token` is for using with each [private](/api/privacy) request
 
-`expires_in` says how many seconds in the future the `access_token` will expire,  
-so if `expires_in` says `3600` seconds, your application should calculate and **save** whatever time is 1 hour from right now. at that time, if you need to make another request, you should refresh the token instead of trying to use it.
+the `refresh_token` is used to [get a new access token](/oauth/access-token) when it expires
 
-`refresh_expires_in` says how many seconds in the future the `refresh_token` will expire,  
-so if `refresh_expires_in` says `7776000` seconds, your application should calculate and **save** whatever time is 90 days from right now. at that time, if the token hasn't been refreshed, the user will probably need to log in again.
+`expires_in` says how many **seconds** in the future the `access_token` will expire. it's usually `3600`.
 
-when you refresh access token data, use all the fields and **discard any old data**. the timeframes will be updated, and apply to the new tokens
+`refresh_expires_in` says how many seconds in the future the `refresh_token` will expire. it's usually `7776000`.

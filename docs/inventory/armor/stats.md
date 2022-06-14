@@ -1,6 +1,6 @@
 # armor stats
 
-### where do weapon stats come from?
+### where do armor stats come from?
 armor stats are a combination of the armor's base stats, plus any bonuses or penalties added by its mods, masterwork, and rolled stats
 
 ### how do i get a real (instanced) armor's stats?
@@ -204,7 +204,7 @@ adding up the stats we collected from the masterwork, mods, and random stat plug
 this method can properly handle single-stat totals above 42, or below 0.
 
 ### how do i get the stats for the collection roll?
-- same as above, except using only the definition, and the weapon's default sockets
+- same as above, except using only the definition, and the armor's default sockets
   - `DestinyInventoryItemDefinition.sockets.sockets.socketEntries` shows an item's default & possible sockets
   - each socket's `singleInitialItemHash` is the default thing plugged into that socket
   - calculate as above

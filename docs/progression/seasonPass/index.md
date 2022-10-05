@@ -41,12 +41,21 @@ We then need to use DestinySeasonDefinitions to get the current season pass `sea
 Index our character progressions using the seasonPassProgressionHash. That should return something like this:
 <img width="226" alt="image" src="https://user-images.githubusercontent.com/56489848/193799439-a2578a37-e3b7-4de0-8b8d-0414dd73ec63.png">
 
-**Note:** *If a user is over level 100 on the season pass, this progression will no longer be touched. This means that the player has now "prestiged". (I know right, sounds unique for Destiny) Progression data for season pass levels now exists in its prestige progression counterpart.*
+**Note:** *If a user is over level 100 on the season pass, this progression will no longer be touched. This means that the player has now "prestiged". Progression data for season pass levels now exists in its prestige progression counterpart.*
 
 ### Prestige progressions
 
 When a user exceeds level 100, the above season progression is no longer used.
-todo
+
+To get the prestige progression, we first have to get the `seasonPassHash`; `seasonPassDefinitions` combined with `seasonDefinitions`.
+
+We can get the `seasonPassHash` by doing the following:<br>
+`seasonPassInfo = seasonPassDefinitions[seasonDefinitions[CurrentSeasonHash].seasonPassHash]`
+
+You should then be able to index character progressions again by doing the following:<br>
+`CharacterProgressions[seasonPassInfo.prestigeProgressionHash]`
+
+**Note:** *This will return an object, the same as the one in the screenshot above, however it represents every level gained AFTER level 100. For example if you are level 105, it will display level 5 in the prestige progression and level 100 in the other.*
 
 
 

@@ -1,0 +1,19 @@
+name: Copy public-vendors to gh-pages
+
+on:
+  push:
+    branches:
+      - public-vendors
+
+jobs:
+  copy:
+    name: Copy my folder
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public-vendors
+          destination_dir: vendors

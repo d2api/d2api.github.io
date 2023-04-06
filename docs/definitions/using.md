@@ -2,7 +2,7 @@
 
 **Required reading** 
 * [definitions overview](definitions)
-* [fetching definitions](/definitions/fetching)gi
+* [fetching definitions](/definitions/fetching)
 
 Once the definitions have been fetched, you should decide if you want to use the JSON or SQLite format.
 

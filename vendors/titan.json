@@ -1,7 +1,7 @@
 {
 	"oldData": false,
-	"bestBefore": "2023-04-08T09:00:00.000Z",
-	"dateGenerated": "2023-04-08T05:00:33.319Z",
+	"bestBefore": "2023-04-08T13:00:00.000Z",
+	"dateGenerated": "2023-04-08T09:00:32.705Z",
 	"Response": {
 		"vendorGroups": {
 			"data": {
@@ -245,15 +245,15 @@
 					"canPurchase": true,
 					"progression": {
 						"progressionHash": 1471185389,
-						"dailyProgress": 12,
+						"dailyProgress": 203,
 						"dailyLimit": 0,
-						"weeklyProgress": 48,
+						"weeklyProgress": 239,
 						"weeklyLimit": 0,
-						"currentProgress": 9529,
+						"currentProgress": 9720,
 						"level": 15,
 						"levelCap": 16,
 						"stepIndex": 15,
-						"progressToNextLevel": 529,
+						"progressToNextLevel": 720,
 						"nextLevelAt": 1000,
 						"currentResetCount": 1
 					},
@@ -364,21 +364,21 @@
 					"canPurchase": true,
 					"progression": {
 						"progressionHash": 1807348350,
-						"dailyProgress": 0,
+						"dailyProgress": 895,
 						"dailyLimit": 0,
-						"weeklyProgress": 0,
+						"weeklyProgress": 895,
 						"weeklyLimit": 0,
-						"currentProgress": 64235,
+						"currentProgress": 65130,
 						"level": 57,
 						"levelCap": -1,
 						"stepIndex": 30,
-						"progressToNextLevel": 485,
+						"progressToNextLevel": 1380,
 						"nextLevelAt": 1500
 					},
 					"vendorLocationIndex": 0,
 					"seasonalRank": 9,
 					"vendorHash": 1021220385,
-					"nextRefreshDate": "2023-04-08T09:00:00Z",
+					"nextRefreshDate": "2023-04-09T09:00:00Z",
 					"enabled": true
 				},
 				"1092954315": {
@@ -420,7 +420,7 @@
 					"canPurchase": false,
 					"vendorLocationIndex": 0,
 					"vendorHash": 1413212512,
-					"nextRefreshDate": "2023-04-08T09:00:00Z",
+					"nextRefreshDate": "2023-04-09T09:00:00Z",
 					"enabled": true
 				},
 				"1420462601": {
@@ -558,7 +558,7 @@
 					"canPurchase": true,
 					"vendorLocationIndex": 0,
 					"vendorHash": 1976548992,
-					"nextRefreshDate": "2023-04-08T08:00:00Z",
+					"nextRefreshDate": "2023-04-08T11:00:00Z",
 					"enabled": true
 				},
 				"2047883483": {
@@ -670,7 +670,7 @@
 					"vendorLocationIndex": 0,
 					"seasonalRank": 1,
 					"vendorHash": 2384113223,
-					"nextRefreshDate": "2023-04-08T09:00:00Z",
+					"nextRefreshDate": "2023-04-09T09:00:00Z",
 					"enabled": true
 				},
 				"2474196287": {
@@ -691,7 +691,7 @@
 					"canPurchase": true,
 					"vendorLocationIndex": 0,
 					"vendorHash": 2531198101,
-					"nextRefreshDate": "2023-04-08T09:00:00Z",
+					"nextRefreshDate": "2023-04-09T09:00:00Z",
 					"enabled": true
 				},
 				"2565786257": {
@@ -2364,7 +2364,7 @@
 						{
 							"displayCategoryIndex": 0,
 							"itemIndexes": [
-								0,
+								1,
 								7,
 								35,
 								80,
@@ -2398,18 +2398,6 @@
 								270,
 								271,
 								272
-							]
-						},
-						{
-							"displayCategoryIndex": 6,
-							"itemIndexes": [
-								595
-							]
-						},
-						{
-							"displayCategoryIndex": 7,
-							"itemIndexes": [
-								596
 							]
 						}
 					]
@@ -13480,17 +13468,19 @@
 				},
 				"2190858386": {
 					"saleItems": {
-						"0": {
+						"1": {
 							"saleStatus": 0,
-							"failureIndexes": [],
+							"failureIndexes": [
+								0
+							],
 							"augments": 0,
-							"vendorItemIndex": 0,
+							"vendorItemIndex": 1,
 							"itemHash": 3875551374,
 							"quantity": 1,
 							"costs": [
 								{
-									"itemHash": 1022552290,
-									"quantity": 97,
+									"itemHash": 3467984096,
+									"quantity": 1,
 									"hasConditionalVisibility": false
 								}
 							]
@@ -13854,24 +13844,6 @@
 									"hasConditionalVisibility": false
 								}
 							]
-						},
-						"595": {
-							"saleStatus": 0,
-							"failureIndexes": [],
-							"augments": 0,
-							"vendorItemIndex": 595,
-							"itemHash": 2125848606,
-							"quantity": 1,
-							"costs": []
-						},
-						"596": {
-							"saleStatus": 0,
-							"failureIndexes": [],
-							"augments": 0,
-							"vendorItemIndex": 596,
-							"itemHash": 2125848607,
-							"quantity": 1,
-							"costs": []
 						}
 					}
 				},
@@ -14658,10 +14630,7 @@
 						},
 						"13": {
 							"saleStatus": 0,
-							"failureIndexes": [
-								2,
-								3
-							],
+							"failureIndexes": [],
 							"augments": 0,
 							"vendorItemIndex": 13,
 							"itemHash": 3106913645,
@@ -55308,7 +55277,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1478423395,
+									"plugHash": 981914802,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55318,12 +55287,12 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 2869569095,
+									"plugHash": 2586829431,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2726471870,
+									"plugHash": 1546637391,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55381,22 +55350,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1087426260,
+									"plugHash": 1431678320,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2946784966,
+									"plugHash": 1870851715,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3511092054,
+									"plugHash": 4104185692,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55454,22 +55423,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 106909392,
+									"plugHash": 1087426260,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3400784728,
+									"plugHash": 3700496672,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1645158859,
+									"plugHash": 699525795,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55527,22 +55496,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 689005463,
+									"plugHash": 1483536627,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1556840489,
+									"plugHash": 2450788523,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 691659142,
+									"plugHash": 11612903,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55609,22 +55578,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1087426260,
+									"plugHash": 1431678320,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2272927194,
+									"plugHash": 1645158859,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 691659142,
+									"plugHash": 2610012052,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -55809,12 +55778,12 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 1478423395,
+										"plugItemHash": 981914802,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 3809316345,
+										"plugItemHash": 3525010810,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -55833,14 +55802,14 @@
 								],
 								"3": [
 									{
-										"plugItemHash": 2869569095,
+										"plugItemHash": 2586829431,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 2726471870,
+										"plugItemHash": 1546637391,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -55877,38 +55846,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 1087426260,
+										"plugItemHash": 1431678320,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 679225683,
+										"plugItemHash": 1885400500,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 2946784966,
+										"plugItemHash": 1870851715,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 3511092054,
+										"plugItemHash": 4104185692,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -55945,38 +55914,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 106909392,
+										"plugItemHash": 1087426260,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 3230963543,
+										"plugItemHash": 1431678320,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 3400784728,
+										"plugItemHash": 3700496672,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 1645158859,
+										"plugItemHash": 699525795,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -56013,38 +55982,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 689005463,
+										"plugItemHash": 1483536627,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1483536627,
+										"plugItemHash": 1687452232,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 1556840489,
+										"plugItemHash": 2450788523,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 691659142,
+										"plugItemHash": 11612903,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -56081,38 +56050,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 1087426260,
+										"plugItemHash": 1431678320,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 679225683,
+										"plugItemHash": 1885400500,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 2272927194,
+										"plugItemHash": 1645158859,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 691659142,
+										"plugItemHash": 2610012052,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -71143,7 +71112,7 @@
 			"2190858386": {
 				"instances": {
 					"data": {
-						"0": {
+						"1": {
 							"damageType": 0,
 							"primaryStat": {
 								"statHash": 1935470627,
@@ -74367,28 +74336,6 @@
 									"completionValue": 1,
 									"complete": false,
 									"visible": false
-								}
-							]
-						},
-						"595": {
-							"objectives": [
-								{
-									"objectiveHash": 1454311167,
-									"progress": 0,
-									"completionValue": 1,
-									"complete": false,
-									"visible": true
-								}
-							]
-						},
-						"596": {
-							"objectives": [
-								{
-									"objectiveHash": 821425980,
-									"progress": 21,
-									"completionValue": 21,
-									"complete": true,
-									"visible": true
 								}
 							]
 						}
@@ -81263,22 +81210,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1087426260,
+									"plugHash": 1431678320,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3700496672,
+									"plugHash": 280464955,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1048183818,
+									"plugHash": 2848615171,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -81450,22 +81397,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 689005463,
+									"plugHash": 1483536627,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2039302152,
+									"plugHash": 280464955,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3673922083,
+									"plugHash": 2209918983,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -81532,22 +81479,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 3250034553,
+									"plugHash": 3661387068,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1087426260,
+									"plugHash": 1431678320,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1428297954,
+									"plugHash": 1631667848,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3350417888,
+									"plugHash": 4082225868,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -81660,38 +81607,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 1087426260,
+										"plugItemHash": 1431678320,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 679225683,
+										"plugItemHash": 1885400500,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 3700496672,
+										"plugItemHash": 280464955,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 1048183818,
+										"plugItemHash": 2848615171,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -81764,38 +81711,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 689005463,
+										"plugItemHash": 1483536627,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1483536627,
+										"plugItemHash": 1687452232,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 2039302152,
+										"plugItemHash": 280464955,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 3673922083,
+										"plugItemHash": 2209918983,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -81832,38 +81779,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 3250034553,
+										"plugItemHash": 3661387068,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 1087426260,
+										"plugItemHash": 1431678320,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 679225683,
+										"plugItemHash": 1885400500,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 1428297954,
+										"plugItemHash": 1631667848,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 3350417888,
+										"plugItemHash": 4082225868,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -121966,6 +121913,7 @@
 					"1505278293": 50,
 					"1724834186": 50,
 					"1873857625": 50,
+					"2014411539": 50,
 					"2068842367": 50,
 					"2109561326": 50,
 					"2563765188": 50,
@@ -121982,7 +121930,6 @@
 					"3282419336": 50,
 					"3692215122": 50,
 					"3814728031": 50,
-					"3825769808": 50,
 					"4019412287": 50,
 					"4101386442": 50,
 					"4114204995": 50,

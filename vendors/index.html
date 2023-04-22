@@ -1,6 +1,6 @@
 public vendors<br/>
 <br/>
-this has d2 vendor responses that don't require OAuth, but may be a little late or old<br/>
+this has d2 vendor responses that don't require OAuth, but may be a little late or old.<br/><br/>
 you may be looking for:
 <ul>
   <li><a href="titan.json">titan.json</a></li>
@@ -8,3 +8,17 @@ you may be looking for:
   <li><a href="warlock.json">warlock.json</a></li>
   <li><a href="all.json">all.json</a></li>
 </ul>
+<br/><br/>
+updates at reset/every 4 hours, it's shaped like a normal API all vendors call, but with 3 extra keys at the top level
+
+<pre tabindex="0" style="padding: 12px; border-radius: 0px; line-height: 1.5; overflow-x: auto; font-size: 14px; margin-left: -12px; margin-right: -12px; border: 0px none; scrollbar-color: rgb(133, 224, 194) rgb(25, 52, 43); background: rgb(25, 52, 43); color: rgb(133, 224, 194);"><code><span style="color: rgb(153, 163, 160); font-weight: normal;">{</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// changes to true if a vendor pull failed (i.e. API is down)</span>
+  <span style="color: rgb(242, 191, 140); font-weight: normal;">"oldData"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">:</span> <span style="color: rgb(242, 191, 140); font-weight: normal;">false</span><span style="color: rgb(153, 163, 160); font-weight: normal;">,</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// if github actions is down or super slow, or my computer died,</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// updating "oldData" to true might be delayed or fail.</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// checking this date might be a more reliable indicator of data staleness</span>
+  <span style="color: rgb(242, 191, 140); font-weight: normal;">"bestBefore"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">:</span> <span style="color: rgb(245, 163, 231); font-weight: normal;">"2022-11-01T13:00:00.000Z"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">,</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// obvious</span>
+  <span style="color: rgb(242, 191, 140); font-weight: normal;">"dateGenerated"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">:</span> <span style="color: rgb(245, 163, 231); font-weight: normal;">"2022-11-01T12:03:50.756Z"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">,</span>
+  <span style="color: rgb(242, 191, 140); font-weight: normal;">"Response"</span><span style="color: rgb(153, 163, 160); font-weight: normal;">:</span> <span style="color: rgb(153, 163, 160); font-weight: normal;">{</span>
+  <span style="color: rgb(153, 163, 160); font-weight: normal;">// etc. usual keys here. "vendors" "sales" etc</span></code></pre>

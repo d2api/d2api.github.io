@@ -1,7 +1,7 @@
 {
 	"oldData": false,
-	"bestBefore": "2023-07-28T13:00:00.000Z",
-	"dateGenerated": "2023-07-28T09:00:35.606Z",
+	"bestBefore": "2023-07-28T17:00:00.000Z",
+	"dateGenerated": "2023-07-28T13:00:37.029Z",
 	"Response": {
 		"vendorGroups": {
 			"data": {
@@ -205,7 +205,7 @@
 					"canPurchase": false,
 					"vendorLocationIndex": 0,
 					"vendorHash": 331087141,
-					"nextRefreshDate": "2023-07-28T09:05:00Z",
+					"nextRefreshDate": "2023-07-28T13:05:00Z",
 					"enabled": true
 				},
 				"350061650": {
@@ -274,23 +274,23 @@
 					"canPurchase": false,
 					"vendorLocationIndex": 0,
 					"vendorHash": 666544520,
-					"nextRefreshDate": "2023-07-28T09:05:00Z",
+					"nextRefreshDate": "2023-07-28T13:05:00Z",
 					"enabled": true
 				},
 				"672118013": {
 					"canPurchase": true,
 					"progression": {
 						"progressionHash": 1471185389,
-						"dailyProgress": 126,
+						"dailyProgress": 386,
 						"dailyLimit": 0,
-						"weeklyProgress": 345,
+						"weeklyProgress": 605,
 						"weeklyLimit": 0,
-						"currentProgress": 858,
-						"level": 4,
+						"currentProgress": 1118,
+						"level": 5,
 						"levelCap": 16,
-						"stepIndex": 4,
-						"progressToNextLevel": 358,
-						"nextLevelAt": 450,
+						"stepIndex": 5,
+						"progressToNextLevel": 168,
+						"nextLevelAt": 600,
 						"currentResetCount": 2
 					},
 					"vendorLocationIndex": 0,
@@ -477,7 +477,7 @@
 					"canPurchase": false,
 					"vendorLocationIndex": 0,
 					"vendorHash": 1453272048,
-					"nextRefreshDate": "2023-07-28T09:05:00Z",
+					"nextRefreshDate": "2023-07-28T13:05:00Z",
 					"enabled": true
 				},
 				"1480784244": {
@@ -574,7 +574,7 @@
 					"canPurchase": false,
 					"vendorLocationIndex": 0,
 					"vendorHash": 1797017515,
-					"nextRefreshDate": "2023-07-28T09:05:00Z",
+					"nextRefreshDate": "2023-07-28T13:05:00Z",
 					"enabled": true
 				},
 				"1816541247": {
@@ -623,7 +623,7 @@
 					"canPurchase": true,
 					"vendorLocationIndex": 0,
 					"vendorHash": 1976548992,
-					"nextRefreshDate": "2023-07-28T11:00:00Z",
+					"nextRefreshDate": "2023-07-28T14:00:00Z",
 					"enabled": true
 				},
 				"2047883483": {
@@ -1225,10 +1225,10 @@
 							"displayCategoryIndex": 6,
 							"itemIndexes": [
 								0,
-								142,
+								141,
 								145,
 								149,
-								163
+								162
 							]
 						},
 						{
@@ -1300,10 +1300,10 @@
 							"displayCategoryIndex": 6,
 							"itemIndexes": [
 								0,
-								48,
-								56,
-								57,
-								59
+								47,
+								53,
+								54,
+								57
 							]
 						},
 						{
@@ -5389,12 +5389,14 @@
 							"quantity": 1,
 							"costs": []
 						},
-						"142": {
+						"141": {
 							"saleStatus": 0,
-							"failureIndexes": [],
+							"failureIndexes": [
+								22
+							],
 							"augments": 0,
-							"vendorItemIndex": 142,
-							"itemHash": 4108896452,
+							"vendorItemIndex": 141,
+							"itemHash": 3671936696,
 							"quantity": 1,
 							"costs": [
 								{
@@ -5440,12 +5442,12 @@
 							"overrideNextRefreshDate": "2023-07-28T17:00:00Z",
 							"apiPurchasable": true
 						},
-						"163": {
+						"162": {
 							"saleStatus": 0,
 							"failureIndexes": [],
 							"augments": 0,
-							"vendorItemIndex": 163,
-							"itemHash": 1115575054,
+							"vendorItemIndex": 162,
+							"itemHash": 1249076770,
 							"quantity": 1,
 							"costs": [
 								{
@@ -5699,12 +5701,12 @@
 							"quantity": 1,
 							"costs": []
 						},
-						"48": {
+						"47": {
 							"saleStatus": 0,
 							"failureIndexes": [],
 							"augments": 0,
-							"vendorItemIndex": 48,
-							"itemHash": 552709557,
+							"vendorItemIndex": 47,
+							"itemHash": 552709556,
 							"quantity": 1,
 							"costs": [
 								{
@@ -5716,12 +5718,29 @@
 							"overrideNextRefreshDate": "2023-07-28T17:00:00Z",
 							"apiPurchasable": true
 						},
-						"56": {
+						"53": {
 							"saleStatus": 0,
 							"failureIndexes": [],
 							"augments": 0,
-							"vendorItemIndex": 56,
-							"itemHash": 1445156671,
+							"vendorItemIndex": 53,
+							"itemHash": 2373217683,
+							"quantity": 1,
+							"costs": [
+								{
+									"itemHash": 3159615086,
+									"quantity": 250,
+									"hasConditionalVisibility": false
+								}
+							],
+							"overrideNextRefreshDate": "2023-07-28T17:00:00Z",
+							"apiPurchasable": true
+						},
+						"54": {
+							"saleStatus": 0,
+							"failureIndexes": [],
+							"augments": 0,
+							"vendorItemIndex": 54,
+							"itemHash": 2373217682,
 							"quantity": 1,
 							"costs": [
 								{
@@ -5739,23 +5758,6 @@
 							"augments": 0,
 							"vendorItemIndex": 57,
 							"itemHash": 3305117363,
-							"quantity": 1,
-							"costs": [
-								{
-									"itemHash": 3159615086,
-									"quantity": 250,
-									"hasConditionalVisibility": false
-								}
-							],
-							"overrideNextRefreshDate": "2023-07-28T17:00:00Z",
-							"apiPurchasable": true
-						},
-						"59": {
-							"saleStatus": 0,
-							"failureIndexes": [],
-							"augments": 0,
-							"vendorItemIndex": 59,
-							"itemHash": 527367198,
 							"quantity": 1,
 							"costs": [
 								{
@@ -39927,7 +39929,7 @@
 							],
 							"cannotEquipReason": 0
 						},
-						"142": {
+						"141": {
 							"damageType": 0,
 							"itemLevel": 0,
 							"quality": 0,
@@ -39963,7 +39965,7 @@
 							],
 							"cannotEquipReason": 0
 						},
-						"163": {
+						"162": {
 							"damageType": 0,
 							"itemLevel": 0,
 							"quality": 0,
@@ -41316,12 +41318,12 @@
 								}
 							]
 						},
-						"142": {
+						"141": {
 							"objectives": [
 								{
-									"objectiveHash": 534479833,
+									"objectiveHash": 3273278229,
 									"progress": 0,
-									"completionValue": 25,
+									"completionValue": 20,
 									"complete": false,
 									"visible": true
 								}
@@ -41349,12 +41351,12 @@
 								}
 							]
 						},
-						"163": {
+						"162": {
 							"objectives": [
 								{
-									"objectiveHash": 3682711439,
+									"objectiveHash": 2218951499,
 									"progress": 0,
-									"completionValue": 50,
+									"completionValue": 25,
 									"complete": false,
 									"visible": true
 								}
@@ -41890,7 +41892,7 @@
 							],
 							"cannotEquipReason": 0
 						},
-						"48": {
+						"47": {
 							"damageType": 0,
 							"itemLevel": 0,
 							"quality": 0,
@@ -41902,7 +41904,19 @@
 							],
 							"cannotEquipReason": 0
 						},
-						"56": {
+						"53": {
+							"damageType": 0,
+							"itemLevel": 0,
+							"quality": 0,
+							"isEquipped": false,
+							"canEquip": false,
+							"equipRequiredLevel": 0,
+							"unlockHashesRequiredToEquip": [
+								0
+							],
+							"cannotEquipReason": 0
+						},
+						"54": {
 							"damageType": 0,
 							"itemLevel": 0,
 							"quality": 0,
@@ -41915,18 +41929,6 @@
 							"cannotEquipReason": 0
 						},
 						"57": {
-							"damageType": 0,
-							"itemLevel": 0,
-							"quality": 0,
-							"isEquipped": false,
-							"canEquip": false,
-							"equipRequiredLevel": 0,
-							"unlockHashesRequiredToEquip": [
-								0
-							],
-							"cannotEquipReason": 0
-						},
-						"59": {
 							"damageType": 0,
 							"itemLevel": 0,
 							"quality": 0,
@@ -42697,23 +42699,34 @@
 								}
 							]
 						},
-						"48": {
+						"47": {
 							"objectives": [
 								{
-									"objectiveHash": 4092951112,
+									"objectiveHash": 675710364,
 									"progress": 0,
-									"completionValue": 5,
+									"completionValue": 100,
 									"complete": false,
 									"visible": true
 								}
 							]
 						},
-						"56": {
+						"53": {
 							"objectives": [
 								{
-									"objectiveHash": 1240307486,
+									"objectiveHash": 1773844674,
 									"progress": 0,
-									"completionValue": 5,
+									"completionValue": 2,
+									"complete": false,
+									"visible": true
+								}
+							]
+						},
+						"54": {
+							"objectives": [
+								{
+									"objectiveHash": 48414776,
+									"progress": 0,
+									"completionValue": 2,
 									"complete": false,
 									"visible": true
 								}
@@ -42723,17 +42736,6 @@
 							"objectives": [
 								{
 									"objectiveHash": 3388825250,
-									"progress": 0,
-									"completionValue": 30,
-									"complete": false,
-									"visible": true
-								}
-							]
-						},
-						"59": {
-							"objectives": [
-								{
-									"objectiveHash": 1090999249,
 									"progress": 0,
 									"completionValue": 30,
 									"complete": false,
@@ -49576,22 +49578,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1300023272,
+									"plugHash": 466087222,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 791862061,
+									"plugHash": 2420895100,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 509074078,
+									"plugHash": 1820235745,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 11612903,
+									"plugHash": 4104185692,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -49870,38 +49872,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 1300023272,
+										"plugItemHash": 466087222,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 4090651448,
+										"plugItemHash": 1300023272,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 791862061,
+										"plugItemHash": 2420895100,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 679225683,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 509074078,
+										"plugItemHash": 1820235745,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 11612903,
+										"plugItemHash": 4104185692,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -69663,7 +69665,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1478423395,
+									"plugHash": 3525010810,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -69673,12 +69675,12 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1583705720,
+									"plugHash": 3108830275,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 4049631843,
+									"plugHash": 1683379515,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -69736,22 +69738,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2420895100,
+									"plugHash": 1968497646,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2272927194,
+									"plugHash": 1866048759,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1015611457,
+									"plugHash": 460017080,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -69809,22 +69811,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 3142289711,
+									"plugHash": 2420895100,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 968510818,
+									"plugHash": 1820235745,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 47981717,
+									"plugHash": 3038247973,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -69882,22 +69884,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 689005463,
+									"plugHash": 1483536627,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 671806388,
+									"plugHash": 744594675,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1754714824,
+									"plugHash": 3523296417,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -69955,22 +69957,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2420895100,
+									"plugHash": 1968497646,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 968510818,
+									"plugHash": 2450788523,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 47981717,
+									"plugHash": 1015611457,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -70155,12 +70157,12 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 1478423395,
+										"plugItemHash": 3525010810,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 981914802,
+										"plugItemHash": 3798852852,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -70179,14 +70181,14 @@
 								],
 								"3": [
 									{
-										"plugItemHash": 1583705720,
+										"plugItemHash": 3108830275,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 4049631843,
+										"plugItemHash": 1683379515,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -70223,38 +70225,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 1968497646,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1968497646,
+										"plugItemHash": 679225683,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 2272927194,
+										"plugItemHash": 1866048759,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 1015611457,
+										"plugItemHash": 460017080,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -70291,38 +70293,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 3142289711,
+										"plugItemHash": 2420895100,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 3230963543,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 968510818,
+										"plugItemHash": 1820235745,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 47981717,
+										"plugItemHash": 3038247973,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -70359,19 +70361,19 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 689005463,
+										"plugItemHash": 1483536627,
 										"canInsert": true,
 										"enabled": true
 									},
@@ -70383,14 +70385,14 @@
 								],
 								"3": [
 									{
-										"plugItemHash": 671806388,
+										"plugItemHash": 744594675,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 1754714824,
+										"plugItemHash": 3523296417,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -70427,38 +70429,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 1968497646,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1968497646,
+										"plugItemHash": 679225683,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 968510818,
+										"plugItemHash": 2450788523,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 47981717,
+										"plugItemHash": 1015611457,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -97709,7 +97711,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								}
@@ -98122,8 +98124,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								}
@@ -99209,22 +99211,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2420895100,
+									"plugHash": 1968497646,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1583705720,
+									"plugHash": 3096702027,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 438098033,
+									"plugHash": 2209918983,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -99396,22 +99398,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 689005463,
+									"plugHash": 1483536627,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1570042021,
+									"plugHash": 2621346526,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2652708987,
+									"plugHash": 4049631843,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -99469,22 +99471,22 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 202670084,
+									"plugHash": 4090651448,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2420895100,
+									"plugHash": 1968497646,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 2039302152,
+									"plugHash": 1645158859,
 									"isEnabled": false,
 									"isVisible": true
 								},
 								{
-									"plugHash": 1015611457,
+									"plugHash": 124408337,
 									"isEnabled": false,
 									"isVisible": true
 								},
@@ -99597,38 +99599,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 1968497646,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1968497646,
+										"plugItemHash": 679225683,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 1583705720,
+										"plugItemHash": 3096702027,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 438098033,
+										"plugItemHash": 2209918983,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -99701,19 +99703,19 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 689005463,
+										"plugItemHash": 1483536627,
 										"canInsert": true,
 										"enabled": true
 									},
@@ -99725,14 +99727,14 @@
 								],
 								"3": [
 									{
-										"plugItemHash": 1570042021,
+										"plugItemHash": 2621346526,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 2652708987,
+										"plugItemHash": 4049631843,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -99769,38 +99771,38 @@
 							"plugs": {
 								"1": [
 									{
-										"plugItemHash": 202670084,
+										"plugItemHash": 4090651448,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1392496348,
+										"plugItemHash": 1840239774,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"2": [
 									{
-										"plugItemHash": 2420895100,
+										"plugItemHash": 1968497646,
 										"canInsert": true,
 										"enabled": true
 									},
 									{
-										"plugItemHash": 1968497646,
+										"plugItemHash": 679225683,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"3": [
 									{
-										"plugItemHash": 2039302152,
+										"plugItemHash": 1645158859,
 										"canInsert": true,
 										"enabled": true
 									}
 								],
 								"4": [
 									{
-										"plugItemHash": 1015611457,
+										"plugItemHash": 124408337,
 										"canInsert": true,
 										"enabled": true
 									}
@@ -123491,7 +123493,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -124965,7 +124967,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -124989,7 +124991,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125013,7 +125015,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125037,7 +125039,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125061,7 +125063,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125085,7 +125087,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125109,7 +125111,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125133,7 +125135,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125157,7 +125159,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125181,7 +125183,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125205,7 +125207,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125229,7 +125231,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125253,7 +125255,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125277,7 +125279,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125301,7 +125303,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125325,7 +125327,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125349,7 +125351,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125373,7 +125375,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125397,7 +125399,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125421,7 +125423,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125445,7 +125447,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125469,7 +125471,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125493,7 +125495,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -125522,7 +125524,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								}
@@ -126113,7 +126115,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126137,7 +126139,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126161,7 +126163,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126185,7 +126187,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126209,7 +126211,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126233,7 +126235,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126257,7 +126259,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126281,7 +126283,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126305,7 +126307,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126329,7 +126331,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126353,7 +126355,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								}
@@ -126372,7 +126374,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								}
@@ -126533,7 +126535,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126601,7 +126603,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -126669,7 +126671,7 @@
 									"isVisible": true
 								},
 								{
-									"plugHash": 1662439581,
+									"plugHash": 1350878542,
 									"isEnabled": true,
 									"isVisible": true
 								},
@@ -131978,8 +131980,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132000,8 +132002,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132022,8 +132024,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132044,8 +132046,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132066,8 +132068,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132088,8 +132090,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132110,8 +132112,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132132,8 +132134,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132154,8 +132156,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132176,8 +132178,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132198,8 +132200,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132220,8 +132222,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132242,8 +132244,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132264,8 +132266,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132286,8 +132288,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132308,8 +132310,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132330,8 +132332,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132352,8 +132354,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132374,8 +132376,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132396,8 +132398,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132418,8 +132420,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132440,8 +132442,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132462,8 +132464,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132484,8 +132486,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132512,8 +132514,8 @@
 									"visible": true
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								}
@@ -132528,8 +132530,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132550,8 +132552,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132572,8 +132574,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132594,8 +132596,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132616,8 +132618,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132638,8 +132640,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132660,8 +132662,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132682,8 +132684,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132704,8 +132706,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132726,8 +132728,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132748,8 +132750,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								}
@@ -132764,8 +132766,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								}
@@ -132780,8 +132782,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132802,8 +132804,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
@@ -132824,8 +132826,8 @@
 									"visible": false
 								},
 								{
-									"perkHash": 1662439581,
-									"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+									"perkHash": 1350878542,
+									"iconPath": "/common/destiny2_content/icons/c5a1216fa95ac4ab890c5a74d68ef970.png",
 									"isActive": true,
 									"visible": true
 								},
